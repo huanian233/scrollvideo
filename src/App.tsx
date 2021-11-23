@@ -1,26 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import { ScrollScence } from "./ScenceComponents"// uses above component in same directory
+
+import "./App.css";
+
+export class App extends React.Component{
+  private _scence?: ScrollScence;
+  private _canvasid: string = 'renderCanvas';
+  constructor(props: any) {
+    super(props);
+  }
+
+  public componentDidMount() {
+    this._scence = new ScrollScence( this._canvasid);
+    this._scence.CreateScence();
+    window.addEventListener('resize', this._scence.onResize);
+    this._scence.render();
+    window.addEventListener('wheel', this._scence.onWheel);
+    this._scence.raf();
+
+
+  }
+
+  public render() {
+    const id = this._canvasid;
+    return <canvas id = {id}  />;
+  }
+
+
+
 }
-
-export default App;

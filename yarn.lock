@@ -1861,6 +1861,11 @@
   dependencies:
     "@types/jest" "*"
 
+"@types/three@^0.134.0":
+  version "0.134.0"
+  resolved "https://registry.npmmirror.com/@types/three/download/@types/three-0.134.0.tgz#22ae9892f4490faaf35f0ccea127df18407b8ab3"
+  integrity sha512-4YB+99Rgqq27EjiYTItEoZtdjLnTh8W9LxowgpC9eWsjaQJIL4Kn/ZcUKAnW3gB/jS4hqGN8iqmid+RcUZDzpA==
+
 "@types/uglify-js@*":
   version "3.12.0"
   resolved "https://registry.yarnpkg.com/@types/uglify-js/-/uglify-js-3.12.0.tgz#2bb061c269441620d46b946350c8f16d52ef37c5"
@@ -9062,6 +9067,11 @@ react-error-overlay@^6.0.9:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.9.tgz#3c743010c9359608c375ecd6bc76f35d93995b0a"
   integrity sha512-nQTTcUu+ATDbrSD1BZHr5kgSD4oF8OFjxun8uAaL8RwPBacGBNPf/yAuVVdx17N8XNzRDMrZ9XcKZHCjPW+9ew==
 
+react-github-corner@^2.5.0:
+  version "2.5.0"
+  resolved "https://registry.nlark.com/react-github-corner/download/react-github-corner-2.5.0.tgz#e350d0c69f69c075bc0f1d2a6f1df6ee91da31f2"
+  integrity sha1-41DQxp9pwHW8Dx0qbx327pHaMfI=
+
 react-is@^16.8.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
@@ -10505,6 +10515,11 @@ text-table@0.2.0, text-table@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
   integrity sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=
+
+three@^0.134.0:
+  version "0.134.0"
+  resolved "https://registry.npmmirror.com/three/download/three-0.134.0.tgz?cache=0&sync_timestamp=1636706775671&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fthree%2Fdownload%2Fthree-0.134.0.tgz#d7ad4d85d050da0861bf39749b06ddfb5f17157f"
+  integrity sha1-161NhdBQ2ghhvzl0mwbd+18XFX8=
 
 throat@^5.0.0:
   version "5.0.0"
