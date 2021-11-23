@@ -45,7 +45,7 @@ export default class ScrollTips extends Component {
             </p>
         </div>
                 <GitHubCorner
-                    href='https://github.com/transitive-bullshit/react-fluid-gallery'
+                    href='https://github.com/huanian233/scrollvideo'
                     bannerColor='#70B7FD'
                 />
         </div>
