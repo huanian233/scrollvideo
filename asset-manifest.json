@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9878ea97.chunk.css",
+    "main.js": "/static/js/main.fdc886e2.chunk.js",
+    "main.js.map": "/static/js/main.fdc886e2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0f8765f0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0f8765f0.js.map",
+    "static/js/2.c39cf05a.chunk.js": "/static/js/2.c39cf05a.chunk.js",
+    "static/js/2.c39cf05a.chunk.js.map": "/static/js/2.c39cf05a.chunk.js.map",
+    "static/js/3.3809f83c.chunk.js": "/static/js/3.3809f83c.chunk.js",
+    "static/js/3.3809f83c.chunk.js.map": "/static/js/3.3809f83c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.9878ea97.chunk.css.map": "/static/css/main.9878ea97.chunk.css.map",
+    "static/js/2.c39cf05a.chunk.js.LICENSE.txt": "/static/js/2.c39cf05a.chunk.js.LICENSE.txt",
+    "static/media/4Kjd1.881c2cd5.mp4": "/static/media/4Kjd1.881c2cd5.mp4",
+    "static/media/4K宇宙1.30130b14.mp4": "/static/media/4K宇宙1.30130b14.mp4",
+    "static/media/4K宇宙2.f91cb95f.mp4": "/static/media/4K宇宙2.f91cb95f.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0f8765f0.js",
+    "static/js/2.c39cf05a.chunk.js",
+    "static/css/main.9878ea97.chunk.css",
+    "static/js/main.fdc886e2.chunk.js"
+  ]
+}
